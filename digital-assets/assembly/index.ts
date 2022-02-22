@@ -12,8 +12,7 @@ export default class Contract extends DRC721_draft {
     super({
       issuer:
         '42698747e2fa87f27f2cdfee7373bb68ea53286e6c79f8f91a1da2157ae967e9',
-      description:
-        'This is a digital asset contract. You can mint a digital asset by calling the `Mint` method.',
+      description: 'This is a digital asset contract.',
       baseUri: null,
     });
   }
