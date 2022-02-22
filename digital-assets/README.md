@@ -1,5 +1,1 @@
-蚂蚁链 TypeScript 智能合约研发脚手架模板。
-
-**不建议直接使用这个包，请直接使用 [Myfish](https://www.npmjs.com/package/@antchain/myfish) 初始化项目。**
-
-更多信息请查看 [官方文档](https://opendocs.antchain.antgroup.com/) 🚀🚀🚀
+这是一个基本的数字资产合约的示例，基于蚂蚁链 DRC-721 规范草案实现。当前还处于公测阶段，供参考。如有生产环境需求请联系我们，欢迎反馈！

@@ -1,6 +1,5 @@
 {
-  "name": "@antchain/myfish-scaffold",
-  "version": "0.2.0",
+  "name": "digital-assets",
   "files": [
     "assembly",
     "config/myfish.js",
@@ -12,10 +11,6 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "@antchain/myassembly": "^0.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+    "@antchain/myassembly": "^0.3.0"
   }
 }
