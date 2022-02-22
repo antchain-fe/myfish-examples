@@ -1,0 +1,4 @@
+{
+  "extends": "@antchain/myassembly/assembly.json",
+  "include": ["assembly", "global.d.ts"]
+}
