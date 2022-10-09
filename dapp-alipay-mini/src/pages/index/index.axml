@@ -1,0 +1,26 @@
+<view class="title">欢迎来到蚂蚁链 web3 世界</view>
+<view a:if="{{ !account }}">
+  <button type="primary" onTap="handleConnect">连接数字身份</button>
+  <view a:if="{{ connectError }}" class="connect-error">{{ connectError }}</view>
+</view>
+<view a:else>
+  <list header="数字身份授权信息" radius>
+    <list-item brief="{{ account.did }}">DID</list-item>
+    <list-item brief="{{ account.signature }}">Signature</list-item>
+    <list-item brief="{{ account.timestamp }}">Timestamp</list-item>
+  </list>
+  <list className="actions" header="其它功能" radius>
+    <list-item
+      className="{{ callContractError ? 'error' : '' }}"
+      brief="{{ callContractError || callContractResult }}"
+      onTap="handleCallContract"
+      arrow="right"
+    >调用测试合约</list-item>
+    <list-item
+      className="{{ signError ? 'error' : '' }}"
+      brief="{{ signError || signResult }}"
+      onTap="handleSign"
+      arrow="right"
+    >调用签名功能</list-item>
+  </list>
+</view>

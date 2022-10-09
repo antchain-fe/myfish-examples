@@ -1,0 +1,58 @@
+.title {
+  margin: 100rpx 0;
+  font-size: 42rpx;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #7cffde 0%, #62b0ff 50%, #7685ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connect-error {
+  margin-top: 100rpx;
+  text-align: center;
+  color: red;
+}
+
+.amd-button-content {
+  margin: 0 auto;
+  width: 400rpx;
+  height: 100rpx;
+  color: #dbdbdb;
+  background: linear-gradient(45deg, #66ffe4 0%, #60c0ff 11%, #4127de 52%, #2c3aed 100%);
+  border-radius: 50rpx;
+  box-shadow: none !important;
+}
+
+.amd-list {
+  margin: 30rpx 40rpx;
+  .amd-list-header {
+    color: #dbdbdb;
+  }
+  .amd-list-item-content-container {
+    overflow: hidden;
+  }
+  .amd-list-item-content-brief {
+    .text-ellipsis-line(1);
+  }
+}
+
+.actions {
+  .amd-list-item-content-brief {
+    .text-ellipsis-line(2);
+    color: green;
+  }
+  .error .amd-list-item-content-brief {
+    color: red;
+  }
+}
+
+.text-ellipsis-line(@line) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: @line;
+  -webkit-box-orient: vertical;
+}

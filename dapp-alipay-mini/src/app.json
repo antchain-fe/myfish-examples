@@ -1,0 +1,8 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "defaultTitle": "蚂蚁链 DApp Demo",
+    "titleBarColor": "#141416",
+    "backgroundColor": "#141416"
+  }
+}

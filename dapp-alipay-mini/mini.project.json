@@ -1,0 +1,10 @@
+{
+  "format": 2,
+  "miniprogramRoot": "src",
+  "compileOptions": {
+    "component2": true,
+    "typescript": true,
+    "less": true,
+    "enableNodeModuleBabelTransform": true
+  }
+}

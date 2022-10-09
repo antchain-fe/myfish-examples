@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@antchain/jssdk": "^1.0.0-beta.14",
+    "antd-mini": "^0.0.22"
+  },
+  "devDependencies": {
+    "@mini-types/alipay": "release"
+  }
+}

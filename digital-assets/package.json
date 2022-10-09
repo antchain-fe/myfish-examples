@@ -1,15 +1,4 @@
 {
-  "name": "digital-assets",
-  "files": [
-    "assembly",
-    "config/myfish.js",
-    "config/certs",
-    ".gitignore",
-    "global.d.ts",
-    "index.js",
-    "package.json",
-    "tsconfig.json"
-  ],
   "dependencies": {
     "@antchain/myassembly": "^0.3.0"
   }
