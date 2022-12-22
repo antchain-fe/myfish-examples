@@ -1,7 +1,7 @@
 {
   "pages": ["pages/index/index"],
   "window": {
-    "defaultTitle": "蚂蚁链 DApp Demo",
+    "defaultTitle": "我的分布式小鱼",
     "titleBarColor": "#141416",
     "backgroundColor": "#141416"
   }
