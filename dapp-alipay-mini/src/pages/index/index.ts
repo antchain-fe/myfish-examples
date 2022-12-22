@@ -24,7 +24,7 @@ Page({
     connectError: '',
     callContractError: '',
     signError: '',
-    title: '欢迎来到蚂蚁链 web3 世界',
+    title: '欢迎来到 Web3 的世界',
   },
   async handleConnect() {
     await provider.requestAccounts();
